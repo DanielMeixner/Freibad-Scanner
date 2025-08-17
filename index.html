@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Pool Scanner">
+    <meta name="theme-color" content="#0288D1">
+    <title>Piscine de Horsdorf - Ticket Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="app-title">Piscine de Horsdorf</h1>
+            <p id="subtitle">Ticket Scanner</p>
+        </header>
+        
+        <div class="language-selector">
+            <button onclick="setLanguage('en')" class="lang-btn" data-lang="en">EN</button>
+            <button onclick="setLanguage('de')" class="lang-btn" data-lang="de">DE</button>
+            <button onclick="setLanguage('fr')" class="lang-btn" data-lang="fr">FR</button>
+        </div>
+
+        <div class="camera-container">
+            <video id="camera-preview" autoplay playsinline></video>
+            <div id="camera-overlay">
+                <div class="scan-frame"></div>
+                <p id="scan-instruction">Position ticket in the frame</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start-camera-btn" class="control-btn primary">
+                <span id="start-camera-text">Start Camera</span>
+            </button>
+            <button id="scan-btn" class="control-btn secondary" disabled>
+                <span id="scan-text">Scan Ticket</span>
+            </button>
+        </div>
+
+        <div id="result-message" class="result-message hidden">
+            <p id="result-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
