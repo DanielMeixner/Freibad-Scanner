@@ -9,14 +9,51 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMwMjg4RDEiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIgNkg4VjRDOCA0LjU1IDguNDUgNSA5IDVIMTVDMTUuNTUgNSAxNiA0LjU1IDE2IDRWNkgyMkMyMi41NSA2IDIzIDYuNDUgMjMgN1YxN0MyMyAxNy41NSAyMi41NSAxOCAyMiAxOEgyQzEuNDUgMTggMSAxNy41NSAxIDE3VjdDMSA2LjQ1IDEuNDUgNiAyIDZaTTEwIDZIMTRWN0gxMFY2WiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4KPC9zdmc+",
-            "sizes": "192x192",
-            "type": "image/svg+xml"
+            "src": "/icons/icon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
         },
         {
-            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMwMjg4RDEiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxwYXRoIGQ9Ik0yIDZIOFY0QzggNC41NSA4LjQ1IDUgOSA1SDE1QzE1LjU1IDUgMTYgNC41NSAxNiA0VjZIMjJDMjIuNTUgNiAyMyA2LjQ1IDIzIDdWMTdDMjMgMTcuNTUgMjIuNTUgMTggMjIgMThIMkMxLjQ1IDE4IDEgMTcuNTUgMSAxN1Y3QzEgNi40NSAxLjQ1IDYgMiA2Wk0xMCA2SDE0VjdIMTBWNloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo8L3N2Zz4=",
+            "src": "/icons/icon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
             "sizes": "512x512",
-            "type": "image/svg+xml"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ]
 }
